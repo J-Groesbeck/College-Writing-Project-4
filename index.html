@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- back to top btn in bottom right -->
+    <header>
+        <!-- navbar: scrollto links for each section -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <!-- Logo and link to home page -->
+                <a class="navbar-brand" href="#">Project 4</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navigation links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-end">
+                        <li class="nav-item me-lg-3">
+                            <a class="nav-link"
+                                onclick="document.getElementById('business').scrollIntoView();">Business</a>
+                        </li>
+                        <li class="nav-item me-lg-3">
+                            <a class="nav-link" onclick="document.getElementById('personal').scrollIntoView();">Personal
+                                Life</a>
+                        </li>
+                        <li class="nav-item me-lg-3">
+                            <a class="nav-link"
+                                onclick="document.getElementById('enviornment').scrollIntoView();">Enviornment</a>
+                        </li>
+                        <li class="nav-item me-lg-3">
+                            <a class="nav-link"
+                                onclick="document.getElementById('creative').scrollIntoView();">Creativity</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                onclick="document.getElementById('conclusion').scrollIntoView();">Conclusion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <!-- title section/question -->
+            <div class="row">
+                <div class="col-12 d-flex main-banner mb-5 px-5">
+                    <div class="corner-borders text-center">
+                        <h1>Is Artificial Intelligence's Impact<br> on Society Positive or Negative?</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- about me -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>About Me</h3>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-8 text-center mb-3">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatibus recusandae totam
+                        architecto, magni quod non mollitia? Temporibus neque placeat, aspernatur sed dolores ipsa
+                        similique! Molestias id earum laboriosam rem!</p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-1"></div>
+                <div class="col-10 text-center pt-3 border-top">
+                    <h3>Historical Context</h3>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2"></div>
+                <div class="col-8 mb-3 text-center">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti eveniet, consequuntur et
+                        impedit molestiae debitis aperiam non velit esse ipsam mollitia cupiditate voluptatem adipisci
+                        placeat veritatis qui facere totam incidunt.</p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-1"></div>
+                <div class="col-10 text-center pt-3 border-top">
+                    <h3>Key Terms</h3>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <ul>
+                        <li>Word: Term</li>
+                        <li>Word: Term</li>
+                        <li>Word: Term</li>
+                        <li>Word: Term</li>
+                        <li>Word: Term</li>
+                    </ul>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <!-- benefits/detriments on the corporate side (increased productivity vs worse product via hallucinations, and potentially less jobs)-->
+            <div class="row mt-5" id="business">
+                <div class="col-12 d-flex main-banner sub-banner mb-5 px-5">
+                    <div class="corner-borders text-center">
+                        <h2>What is AI's Impact on Business?</h2>
+                    </div>
+                </div>
+                <div class="col-12 text-center mb-3">
+                    <h3>How much is AI Being Used In Businesses?</h3>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-4 mb-3">
+                    <figure class="text-center">
+                        <img src="imgs/graph1.png" style="width:100%">
+                        <figcaption>Fig.1 - Percentage of companies using AI</figcaption>
+                    </figure>
+                </div>
+                <div class="col-4 text-center">
+                    <p>As seen in figure 1, use of AI in business across the US has been steadily increasing over the
+                        past few years, to where now close to 80% of businesses are using AI in some way. As AI advances
+                        further, that number will continue to rise even higher. So, if so many business are using it, it
+                        must be helpful, right?
+                    <p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-1"></div>
+                <div class="col-10 text-center pt-3 border-top">
+                    <h3>Does use of AI in businesses make them more productive?</h3>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-4 text-center">
+                    <p>Some may be surprised to learn that the answer is actually yes. As seen in figure 2, 72% of the
+                        surveyed companies who used AI "extensively" reported a high level of productivity. And this
+                        makes sense - if AI can be used to perform tasks faster, of course the productivity of the
+                        companies who use it is higher. Take programming, for example. An AI can potentially produce up
+                        to a few hundred lines of code in a matter of seconds, serving as a pretty good initial draft
+                        that the developer can work off of. In other fields, AI can improve productivity in a similar
+                        way. However, you may notice that there is a significant drop in productivity when you look at
+                        the companies who reported using AI "fully." This is likely due to the plethora of mistakes AI
+                        can make without even realizing it, leading to extra time spent fixing those mistakes and worse
+                        products overall, if said mistakes are not caught.
+                    <p>
+                </div>
+                <div class="col-4 mb-3">
+                    <figure class="text-center">
+                        <img src="imgs/graph2.png" style="width:100%">
+                        <figcaption>Fig.2 - Percentage of companies that reported high productivity, split by use of AI
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-1"></div>
+                <div class="col-10 text-center pt-3 border-top">
+                    <h3>AI Hallucinations</h3>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-4 mb-3">
+                    <figure class="text-center">
+                        <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+                            <iframe src="https://www.youtube.com/embed/WowYXubbMtA?rel=0"
+                                style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"
+                                allowfullscreen scrolling="no"
+                                allow="accelerometer *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *; web-share *;"
+                                referrerpolicy="strict-origin"></iframe>
+                        </div>
+                        <figcaption>This video explains what AI hallucinations are and the potential causes of them
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-4 text-center">
+                    <p>The mistakes an AI can make are generally referred to as "hallucinations." These hallucinations
+                        can have extremely detrimental effects when it comes to AI use in business. A business that uses
+                        AI and does not catch a mistake that an AI made can lead to a completely non-functioning or
+                        potentially dangerous product. In other cases, it could lead to misinformation being spread far
+                        and wide, which of course can be extremely damaging in several ways.
+                    <p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-12 text-center"><a target="_blank"
+                        href="https://dl-acm-org.proxy.libraries.rutgers.edu/doi/10.1145/3747356"
+                        class="btn btn-primary">Click here to learn more about how AI and its hallucinations can affect
+                        productivity</a></div>
+            </div>
+            <!-- personal side (can help you organize things explained via TED talk vs losing social skills/personability) TO FIND: A SCHOLARLY SOURCE FOR THE SECOND PART-->
+            <div class="row mt-5" id="personal">
+                <div class="col-12 d-flex main-banner sub-banner mb-5 px-5">
+                    <div class="corner-borders text-center">
+                        <h2>What is AI's Impact on One's Personal Life?</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- enviornmental (only one side here: its bad) TO FIND: A SCHOLARLY SOURCE THAT PROVES THIS-->
+            <div class="row mt-5" id="enviornment">
+                <div class="col-12 d-flex main-banner sub-banner mb-5 px-5">
+                    <div class="corner-borders text-center">
+                        <h2>What is AI's Impact on the Enviornment?</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- creative side (makes art, music, etc more accessible vs scraping data, stealing, etc) -->
+            <div class="row mt-5" id="creative">
+                <div class="col-12 d-flex main-banner sub-banner mb-5 px-5">
+                    <div class="corner-borders text-center">
+                        <h2>What is AI's Impact on Creativity?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5" id="conclusion">
+                <div class="col-12 d-flex main-banner sub-banner mb-4 px-5">
+                    <div class="corner-borders text-center">
+                        <h2>Conclusion</h2>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-8 text-center mb-4">-TEMPORARY-<br>Overall, I hope that while reading this, you have
+                    come to understand
+                    the aspects of AI's impact on society. Maybe you haven't changed your mind about AI, and maybe
+                    you're still unsure on whether you think it's overall a positive or negative, and that's ok. The
+                    most important thing is to remain informed on topics where you hold an opinion, and I hope that my
+                    blog was able to do that for you. Thank you for reading.</div>
+                <div class="col-2"></div>
+                <div class="col-1"></div>
+                <div class="col-10 text-center pt-3 border-top">
+                    <h3>Works Cited</h3>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2"></div>
+                <div class="col-8 mb-4">Peter J. Denning. 2025. Artificial Intelligence: Generative AI. Ubiquity 2025,
+                    July, Article 3 (July 2025), 19 pages. <a target="_blank"
+                        href="https://doi-org.proxy.libraries.rutgers.edu/10.1145/3747356">https://doi-org.proxy.libraries.rutgers.edu/10.1145/3747356</a>
+                    <br><br>
+                    Howarth, Josh. “44 NEW Artificial Intelligence Statistics (October 2025).” Exploding Topics, 3 Nov.
+                    2025, <a a target="_blank"
+                        href="https://explodingtopics.com/blog/ai-statistics">https://explodingtopics.com/blog/ai-statistics</a>.
+                    <br><br>
+                    Aiprm. “AI Statistics 2024.” AIPRM, 11 Jan. 2024, www.aiprm.com/ai-statistics.
+                    <br><br>
+                    O’Sullivan, Isobel, and Isobel O'Sullivan. “Fully Remote Companies Are the Most Productive, Report
+                    Finds.” Tech.co, 13 Mar. 2024, tech.co/news/fully-remote-companies-productive.
+                    <br><br>
+                    <br><br>
+                    <br><br>
+                    <br><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-1"></div>
+                <div class="col-10 text-center pt-3 border-top">
+                    <h3>Reflection</h3>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2"></div>
+                <div class="col-8 mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores illum adipisci
+                    doloribus iste quaerat iusto eos numquam eum. Labore atque odit voluptatum officia ipsa reiciendis
+                    architecto modi accusamus quasi impedit!</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- My JS -->
+    <script src="script.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

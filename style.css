@@ -1,0 +1,94 @@
+
+
+
+
+
+.corner-borders {
+    position: relative;
+    /* Allows positioning of pseudo-elements inside the container */
+    padding-left: 1.25vw;
+    /* Adds padding on the left */
+    padding-right: 1.25vw;
+    /* Adds padding on the right */
+}
+
+.corner-borders::before,
+.corner-borders::after {
+    content: '';
+    /* Generates an empty content for the pseudo-elements */
+    position: absolute;
+    /* Positions the pseudo-elements absolutely */
+    width: 15vw;
+    /* Sets the width for the borders */
+    height: 30%;
+    /* Sets the height of the borders */
+    background-color: transparent;
+    /* Keeps the background transparent */
+}
+
+.corner-borders::before {
+    top: 0;
+    /* Positions the top border */
+    left: 0;
+    /* Positions the left border */
+    border-top: 1vw solid #000000;
+    /* Creates a top border */
+    border-left: 1vw solid #000000;
+    /* Creates a left border */
+}
+
+.corner-borders::after {
+    bottom: 0;
+    /* Positions the bottom border */
+    right: 0;
+    /* Positions the right border */
+    border-bottom: 1vw solid #000000;
+    /* Creates a bottom border */
+    border-right: 1vw solid #000000;
+    /* Creates a right border */
+}
+
+.main-banner {
+    height: 17.5rem;
+    /* Sets the height of the banner */
+    width: 100%;
+    /* Sets the width to cover the full width of the container */
+    display: flex;
+    /* Uses flexbox layout */
+    justify-content: center;
+    /* Centers the content horizontally */
+    align-items: center;
+    /* Centers the content vertically */
+    background-color: #bdbdbd;
+    /* Sets the background color */
+}
+
+h1 {
+    font-size: 5.8vw !important;
+    /* Sets the font size to be responsive based on viewport width */
+}
+
+h2 {
+    font-size: 4.6vw !important;
+}
+
+h3 {
+    font-size: 3vw !important;
+}
+
+.sub-banner {
+    height: 10rem;
+}
+
+a {
+    cursor: pointer;
+}
+
+:root {
+    --bs-border-width: 3px !important;
+    --bs-border-color: black !important;
+}
+
+figcaption {
+    color: #868989;
+}
