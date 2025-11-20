@@ -75,6 +75,23 @@ h3 {
     height: 10rem;
 }
 
+.sub-banner > .corner-borders {
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+.sub-banner > .corner-borders::before,
+.sub-banner > .corner-borders::after {
+    height: 60%;
+}
+
+.conclusion-banner > .corner-borders::before,
+.conclusion-banner > .corner-borders::after {
+    width: 7.5vw;
+}
+
 a {
     cursor: pointer;
 }
@@ -143,4 +160,9 @@ figcaption {
 /* Back to top button hover effect */
 #topBtn:hover {
     background-color: #04165D;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: #000000 !important;
+    --bs-nav-link-hover-color: rgb(78 78 78) !important;
 }

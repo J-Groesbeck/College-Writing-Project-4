@@ -8,8 +8,10 @@ window.onscroll = function () { scrollFunction() };
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         topbutton.style.display = "block";
+        document.getElementsByClassName("navbar-brand")[0].textContent = "Project 4"
     } else {
         topbutton.style.display = "none";
+        document.getElementsByClassName("navbar-brand")[0].textContent = "Project 4 - Blog Post Research Question"
     }
 }
 
