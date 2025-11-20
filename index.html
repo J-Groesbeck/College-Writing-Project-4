@@ -16,9 +16,10 @@
 
 <body>
     <!-- back to top btn in bottom right -->
+    <button type="button" onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
     <header>
         <!-- navbar: scrollto links for each section -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar fixed-top navbar-expand-lg">
             <div class="container-fluid d-flex justify-content-between align-items-center">
                 <!-- Logo and link to home page -->
                 <a class="navbar-brand" href="#">Project 4</a>
@@ -59,7 +60,7 @@
         <div class="container-fluid">
             <!-- title section/question -->
             <div class="row">
-                <div class="col-12 d-flex main-banner mb-5 px-5">
+                <div class="col-12 d-flex main-banner mb-5 px-5 pt-5">
                     <div class="corner-borders text-center">
                         <h1>Is Artificial Intelligence's Impact<br> on Society Positive or Negative?</h1>
                     </div>
@@ -123,20 +124,21 @@
                         <figcaption>Fig.1 - Percentage of companies using AI</figcaption>
                     </figure>
                 </div>
-                <div class="col-4 text-center">
+                <div class="col-4 text-center vertical-center">
                     <p>As seen in figure 1, use of AI in business across the US has been steadily increasing over the
                         past few years, to where now close to 80% of businesses are using AI in some way. As AI advances
-                        further, that number will continue to rise even higher. So, if so many business are using it, it
+                        further, that number will continue to rise even higher. So, if so many businesses are using it,
+                        it
                         must be helpful, right?
                     <p>
                 </div>
                 <div class="col-2"></div>
                 <div class="col-1"></div>
-                <div class="col-10 text-center pt-3 border-top">
+                <div class="col-10 text-center pt-3 mb-3 border-top">
                     <h3>Does use of AI in businesses make them more productive?</h3>
                 </div>
                 <div class="col-2"></div>
-                <div class="col-4 text-center">
+                <div class="col-4 text-center vertical-center">
                     <p>Some may be surprised to learn that the answer is actually yes. As seen in figure 2, 72% of the
                         surveyed companies who used AI "extensively" reported a high level of productivity. And this
                         makes sense - if AI can be used to perform tasks faster, of course the productivity of the
@@ -158,8 +160,8 @@
                 </div>
                 <div class="col-2"></div>
                 <div class="col-1"></div>
-                <div class="col-10 text-center pt-3 border-top">
-                    <h3>AI Hallucinations</h3>
+                <div class="col-10 text-center pt-3 mb-3 border-top">
+                    <h3>What are AI Hallucinations?</h3>
                 </div>
                 <div class="col-2"></div>
                 <div class="col-4 mb-3">
@@ -175,7 +177,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col-4 text-center">
+                <div class="col-4 text-center vertical-center">
                     <p>The mistakes an AI can make are generally referred to as "hallucinations." These hallucinations
                         can have extremely detrimental effects when it comes to AI use in business. A business that uses
                         AI and does not catch a mistake that an AI made can lead to a completely non-functioning or
@@ -196,6 +198,57 @@
                         <h2>What is AI's Impact on One's Personal Life?</h2>
                     </div>
                 </div>
+                <div class="col-12 text-center mb-3">
+                    <h3>How can AI be <em>helpful</em> in someone's personal life?</h3>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-4 mb-3">
+                    <figure class="text-center">
+                        <div style="padding-bottom: 56.25%; position: relative;"><iframe width="100%" height="100%"
+                                src="https://embed.ted.com/talks/avni_patel_thompson_can_ai_help_with_the_chaos_of_family_life"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"><small>Powered
+                                    by <a href="https://embed.tube/embed-code-generator/ted/">ted embed</a>
+                                    generator</small></iframe></div>
+                        <figcaption>In this TED talk, Avni Patel discusses how she used AI to make scheduling easier
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-4 text-center vertical-center">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ipsam dolor numquam alias eos a
+                        aspernatur, accusantium optio laudantium reprehenderit esse id tenetur, nam beatae quisquam,
+                        cupiditate reiciendis nihil iste.
+                    <p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-1"></div>
+                <div class="col-10 text-center pt-3 mb-3 border-top">
+                    <h3>How can AI be <em>harmful</em> in someone's personal life?</h3>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-4 text-center vertical-center">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, eaque adipisci. Consequatur,
+                        nesciunt tempora tenetur possimus illo labore suscipit, recusandae perspiciatis minima error hic
+                        temporibus. Earum similique debitis laudantium magni. <br><br>
+                        While searching for more information on this topic, I found <a target="_blank"
+                            href="https://www.reddit.com/r/MyBoyfriendIsAI/comments/1lzzxq0/i_said_yes/">this reddit
+                            post</a>, in which a person on the forum r/MyBoyfriendIsAI, says that an AI has proposed to
+                        them, even including a message from said AI. Regaurdless of your thoughts on this, it certainly
+                        proves that excessive use of AI can affect your real-world relationships. This person has found
+                        solace in the constant affirmation and lack of pushing back from the AI to the point they have
+                        supposedly married it, and it seems very likely that they may begin to expect similar treatment
+                        from real people, which is certainly not a healthy outlook.
+                    <p>
+                </div>
+                <div class="col-4 mb-3">
+                    <figure class="text-center">
+                        <img src="imgs/graph3.webp" style="width:100%">
+                        <figcaption>Fig.3 - Percentage of consumers who plan to use AI for specific purposes
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-2"></div>
             </div>
             <!-- enviornmental (only one side here: its bad) TO FIND: A SCHOLARLY SOURCE THAT PROVES THIS-->
             <div class="row mt-5" id="enviornment">
@@ -204,6 +257,40 @@
                         <h2>What is AI's Impact on the Enviornment?</h2>
                     </div>
                 </div>
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <figure class="text-center">
+                        <img src="imgs/graph4.jpg" style="width:100%">
+                        <figcaption>Fig.4 - Carbon Dioxide emmisions of AI compared to other large factors
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-4 text-center vertical-center">
+                    <p>Unfortunately, this one is pretty clear cut. It's extremely bad for the environement. As seen in
+                        figure 4, the carbon emissions that result from ai are absolutely massive, outpacing things like
+                        car manufacturing and operation which are typically the first things that come to mind with
+                        carbon emissions. Additionally, you may have heard that AI uses an absurd amount of water - and
+                        this is also true. In order to cool the data centers that AI rely on, large language models use
+                        an average of 50ml of water <em>per prompt</em>. This might not sound like a lot, but when you
+                        consider how many millions of people are prompting these AIs, its a huge amount being used.
+                        Additionally, these data centers need a large amount of energy to be maintained, and many of our
+                        main sources of energy in the modern day also worsen pollution. In fact, people in areas near
+                        local data centers have reported a greater amount of blackouts, difficulty breathing due to air
+                        pollution, and even water shortages. However, it is worth mentioning that AI can be used in
+                        other environmentally detrimental fields in order to reduce the negative effects present in
+                        them. As one example, AI monitoring has been shown effective in reducing the fertilizer and
+                        water needs in agriculture.</p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"></div>
+                <div class="col-4 text-center vertical-center"><a target="_blank"
+                        href="https://dl-acm-org.proxy.libraries.rutgers.edu/doi/10.1145/3747356"
+                        class="btn btn-primary">Click here to learn more about AI's carbon emissions, as well as some
+                        steps that could be taken to reduce said emmisions</a></div>
+                <div class="col-4 text-center vertical-center"><a target="_blank"
+                        href="https://dl-acm-org.proxy.libraries.rutgers.edu/doi/10.1145/3747356"
+                        class="btn btn-primary">Click here to learn more about data centers and their effects, alongside
+                        a proposed method to increase activism about them</a></div>
             </div>
             <!-- creative side (makes art, music, etc more accessible vs scraping data, stealing, etc) -->
             <div class="row mt-5" id="creative">
@@ -221,11 +308,13 @@
                 </div>
                 <div class="col-2"></div>
                 <div class="col-8 text-center mb-4">-TEMPORARY-<br>Overall, I hope that while reading this, you have
-                    come to understand
-                    the aspects of AI's impact on society. Maybe you haven't changed your mind about AI, and maybe
-                    you're still unsure on whether you think it's overall a positive or negative, and that's ok. The
-                    most important thing is to remain informed on topics where you hold an opinion, and I hope that my
-                    blog was able to do that for you. Thank you for reading.</div>
+                    come to understand more aspects of AI's impact on society than you did before. Maybe you haven't
+                    changed your mind about AI, and maybe you're still unsure on whether you think it's overall a
+                    positive or negative, and that's ok. The most important thing is to remain informed on topics where
+                    you hold an opinion, and I hope that my blog was able to do that for you. I also implore you to look
+                    into this for yourself - there are more topics I didn't even touch on, like deepfakes/photorealistic
+                    applications of AI image generation, or it's uses in education and the positives and negatives
+                    associated with that. Thank you for reading.</div>
                 <div class="col-2"></div>
                 <div class="col-1"></div>
                 <div class="col-10 text-center pt-3 border-top">
@@ -246,20 +335,19 @@
                     O’Sullivan, Isobel, and Isobel O'Sullivan. “Fully Remote Companies Are the Most Productive, Report
                     Finds.” Tech.co, 13 Mar. 2024, tech.co/news/fully-remote-companies-productive.
                     <br><br>
+                    Eshta Bhardwaj, Han Qiao, Rowan O.A. Munson, and Christoph Becker. 2025. Humour as Resistance:
+                    Creative Approaches to Data Center Accountability. In Proceedings of the 2025 ACM SIGCAS/SIGCHI
+                    Conference on Computing and Sustainable Societies (COMPASS '25). Association for Computing
+                    Machinery, New York, NY, USA, 831–836.
+                    https://doi-org.proxy.libraries.rutgers.edu/10.1145/3715335.3737682
                     <br><br>
+                    Keith Kirkpatrick. 2023. The Carbon Footprint of Artificial Intelligence. Commun. ACM 66, 8 (August
+                    2023), 17–19. https://doi-org.proxy.libraries.rutgers.edu/10.1145/3603746
                     <br><br>
+                    Gow, Glenn. “Environmental Sustainability and AI.” Forbes, 2 Nov. 2022,
+                    www.forbes.com/sites/glenngow/2020/08/21/environmental-sustainability-and-ai.
                     <br><br>
                 </div>
-                <div class="col-2"></div>
-                <div class="col-1"></div>
-                <div class="col-10 text-center pt-3 border-top">
-                    <h3>Reflection</h3>
-                </div>
-                <div class="col-1"></div>
-                <div class="col-2"></div>
-                <div class="col-8 mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores illum adipisci
-                    doloribus iste quaerat iusto eos numquam eum. Labore atque odit voluptatum officia ipsa reiciendis
-                    architecto modi accusamus quasi impedit!</div>
             </div>
         </div>
     </main>
