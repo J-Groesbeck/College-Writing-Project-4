@@ -43,19 +43,24 @@
     /* Creates a right border */
 }
 
+.title-banner {
+    background-image: url(imgs/maybe_banner.png) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #3cd3f958 !important;
+    height: 30rem !important;
+    color: #000000;
+}
+
 .main-banner {
     height: 17.5rem;
-    /* Sets the height of the banner */
     width: 100%;
-    /* Sets the width to cover the full width of the container */
     display: flex;
-    /* Uses flexbox layout */
     justify-content: center;
-    /* Centers the content horizontally */
     align-items: center;
-    /* Centers the content vertically */
     background-color: #3CD2F9;
-    /* Sets the background color */
 }
 
 h1 {
@@ -169,4 +174,8 @@ figcaption {
 
 img {
     border-radius: 5%;
+}
+
+.pt {
+    padding-top: 6rem !important;
 }
